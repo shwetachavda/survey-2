@@ -2,20 +2,39 @@
 
 /* custom style sheet */
 
+
+h2{
+    margin-bottom: 50px;
+}
+.top{
+    margin-top: 40px;
+}
     .navbar-inverse  
     { 
-       background: #455A64; 
-       border-color:  #455A64;
+       background: #421313; 
+       border-color:  #421313;
        border-spacing: none;
       
        color: #FFFFFF;
      }
+.red{
+    color: #421313;
+}
+.white{
+    color: #fff;
+}
+.btn btn-primary{
+    background-color: #000;
 
+}
 body { 
-    background: #607D8B;
-    color: #FFFFFF;
+    background: #FED8A8;
+    color: #251312;
     
     }
+   .text{
+       color: #251312;
+   }
     
 .light-primary-color   { background: #CFD8DC; }
 .text-primary-color    { color: #FFFFFF; }
@@ -36,7 +55,7 @@ body {
 /* Paragraph   */
 .aboutus p{
     padding-top: 35px;
-    color: whitesmoke;
+    color: #421313;
     font-weight: 200;
     letter-spacing: 3px;
     font-family:  'Times New Roman', Times, serif;
@@ -46,6 +65,12 @@ body {
     width: 80%;
     position: relative;
     }
+  .home p{
+    color: #421313;
+    font-weight: 200;
+    font-size: 20px;
+
+  }
 
 /* Links */ 
  p a:link {
@@ -65,7 +90,8 @@ body {
  }           
  .h2about{
      position: fixed;
-     top: 20px;
+     top: 90px;
+     right: 550px;
      text-align: center;
  }  
 
@@ -75,10 +101,14 @@ body {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+}
 .btn{
     
-    background:  black !important;
-    background-color: black !important;
+    background:  #455A64 !important;
+    border-color: #455A64;
 }
 
 .demo-card {
@@ -90,7 +120,7 @@ h4.title {
   text-align: center;
 }
  section {
-        padding-top: 60px;
+        padding-top: 10px;
         font-family: 'Abel', sans-serif;
         letter-spacing:2px;
         font-size:1.4em;

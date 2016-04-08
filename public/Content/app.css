@@ -1,0 +1,104 @@
+/* custom style sheet */
+
+/* custom style sheet */
+
+    .navbar-inverse  
+    { 
+       background: #455A64; 
+       border-color:  #455A64;
+       border-spacing: none;
+      
+       color: #FFFFFF;
+     }
+
+body { 
+    background: #607D8B;
+    color: #FFFFFF;
+    
+    }
+    
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #4CAF50; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+
+/* Section styles  */
+            section {
+        padding-top: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+
+/* Paragraph   */
+.aboutus p{
+    padding-top: 35px;
+    color: whitesmoke;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-family:  'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: justify;
+    font-size: 22px;
+    width: 80%;
+    position: relative;
+    }
+
+/* Links */ 
+ p a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+ p a:visited {
+    color: white;
+    text-decoration: none;
+}
+ .navbar-brand{
+     position: fixed;
+     top: -10px;
+ }           
+ .h2about{
+     position: fixed;
+     top: 20px;
+     text-align: center;
+ }  
+
+
+.nav{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn{
+    
+    background:  black !important;
+    background-color: black !important;
+}
+
+.demo-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 100px;
+}
+h4.title {
+  text-align: center;
+}
+ section {
+        padding-top: 60px;
+        font-family: 'Abel', sans-serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+        
+    }
+    i {
+        font-size:1.4em;
+        color:#E5EFFF;
+        
+    }

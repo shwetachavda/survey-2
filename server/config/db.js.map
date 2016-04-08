@@ -1,0 +1,1 @@
+{"version":3,"sources":["config/db.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,GAAG;IACb,KAAK,EAAC,wDAAwD;CACjE,CAAC","file":"config/db.js","sourcesContent":["module.exports = {\n    'url':'mongodb://survey:survey@ds028559.mlab.com:28559/survey'\n};"],"sourceRoot":"/source/"}
